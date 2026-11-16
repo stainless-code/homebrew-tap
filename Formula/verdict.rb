@@ -9,23 +9,23 @@ class Verdict < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/stainless-code/verdict/releases/download/v0.6.1/verdict_0.6.1_darwin_amd64.tar.gz"
-      sha256 "37241574d09091a9b27c2776912b6df3cceb785d197a4c35fad8696fbb10c6ad"
+      url "https://github.com/stainless-code/verdict/releases/download/v0.7.0/verdict_0.7.0_darwin_amd64.tar.gz"
+      sha256 "7c9b239a8081669cf64ad275e7291efac6bca1b5b43bb1ca2d1279e7f5e1b97d"
     end
     on_arm do
-      url "https://github.com/stainless-code/verdict/releases/download/v0.6.1/verdict_0.6.1_darwin_arm64.tar.gz"
-      sha256 "c6ab5e6737fd888ae25572f99535e3ca9887343afb7811b225eeadcc73806007"
+      url "https://github.com/stainless-code/verdict/releases/download/v0.7.0/verdict_0.7.0_darwin_arm64.tar.gz"
+      sha256 "2c4e6eed530bc61468732d73584c48b5c342d95ccf9d4ee1dee912a49311b714"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/stainless-code/verdict/releases/download/v0.6.1/verdict_0.6.1_linux_amd64.tar.gz"
-      sha256 "3f0db1f120dfeefeddf007ab1aeac74296bea8fc5e97a1458aead4f10ef2cc78"
+      url "https://github.com/stainless-code/verdict/releases/download/v0.7.0/verdict_0.7.0_linux_amd64.tar.gz"
+      sha256 "624cda798cae2d55b0cf0a0d1bbc9b8a832d2d43e32e75890f667840dd11fb0b"
     end
     on_arm do
-      url "https://github.com/stainless-code/verdict/releases/download/v0.6.1/verdict_0.6.1_linux_arm64.tar.gz"
-      sha256 "505e2574863a5928f7ea5db81727698a3acd27082d3201626f3823ab96919ea2"
+      url "https://github.com/stainless-code/verdict/releases/download/v0.7.0/verdict_0.7.0_linux_arm64.tar.gz"
+      sha256 "69a4ceeb2cd282516ceb102cdc5316d3924a46217259aa6c20ba2cb2bcb1bcab"
     end
   end
 
